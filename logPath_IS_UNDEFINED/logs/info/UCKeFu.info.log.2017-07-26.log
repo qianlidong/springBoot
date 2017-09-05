@@ -1,0 +1,243 @@
+2017-07-26 11:05:17.654 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 3076 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:05:17.656 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:05:18.024 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1a4d90c1: startup date [Wed Jul 26 11:05:18 CST 2017]; root of context hierarchy
+2017-07-26 11:05:19.960 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:05:23.154 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:05:23.189 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:05:23.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:05:23.344 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:05:23.346 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:05:23.531 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:05:25.401 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:05:25.557 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:05:26.591 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:05:27.385 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:05:28.597 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1a4d90c1: startup date [Wed Jul 26 11:05:18 CST 2017]; root of context hierarchy
+2017-07-26 11:05:28.693 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:05:28.695 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:05:28.696 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:05:28.728 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:05:28.729 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:05:28.769 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:05:29.266 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 13.53 seconds (JVM running for 16.929)
+2017-07-26 11:05:29.379 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:05:29.383 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1a4d90c1: startup date [Wed Jul 26 11:05:18 CST 2017]; root of context hierarchy
+2017-07-26 11:05:29.387 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:16:37.232 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 7244 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:16:37.232 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:16:37.289 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@696eb0c3: startup date [Wed Jul 26 11:16:37 CST 2017]; root of context hierarchy
+2017-07-26 11:16:37.866 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:16:39.218 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:16:39.232 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:16:39.296 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:16:39.297 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:16:39.298 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:16:39.339 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:16:40.574 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:16:40.739 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:16:41.119 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:16:42.005 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:16:42.668 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@696eb0c3: startup date [Wed Jul 26 11:16:37 CST 2017]; root of context hierarchy
+2017-07-26 11:16:42.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:16:42.730 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:16:42.731 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:16:42.761 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:16:42.761 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:16:42.797 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:16:43.164 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 6.489 seconds (JVM running for 7.107)
+2017-07-26 11:16:43.196 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:16:43.200 [Thread-5] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@696eb0c3: startup date [Wed Jul 26 11:16:37 CST 2017]; root of context hierarchy
+2017-07-26 11:16:43.203 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:17:57.657 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 6332 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:17:57.658 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:17:57.684 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@666c5994: startup date [Wed Jul 26 11:17:57 CST 2017]; root of context hierarchy
+2017-07-26 11:17:57.969 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:17:59.092 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:17:59.106 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:17:59.182 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:17:59.183 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:17:59.184 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:17:59.221 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:18:00.459 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:18:00.597 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:18:00.946 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:18:01.715 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:18:02.392 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@666c5994: startup date [Wed Jul 26 11:17:57 CST 2017]; root of context hierarchy
+2017-07-26 11:18:02.453 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:18:02.455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:18:02.456 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:18:02.486 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:18:02.486 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:18:02.523 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:18:02.898 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.541 seconds (JVM running for 6.03)
+2017-07-26 11:18:02.932 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:18:02.937 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@666c5994: startup date [Wed Jul 26 11:17:57 CST 2017]; root of context hierarchy
+2017-07-26 11:18:02.939 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:19:50.374 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 8440 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:19:50.375 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:19:50.403 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68e29d53: startup date [Wed Jul 26 11:19:50 CST 2017]; root of context hierarchy
+2017-07-26 11:19:50.675 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:19:51.791 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:19:51.805 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:19:51.879 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:19:51.880 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:19:51.881 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:19:51.917 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:19:53.064 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:19:53.201 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:19:53.555 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:19:54.362 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:19:55.064 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@68e29d53: startup date [Wed Jul 26 11:19:50 CST 2017]; root of context hierarchy
+2017-07-26 11:19:55.124 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:19:55.127 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:19:55.127 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:19:55.156 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:19:55.156 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:19:55.191 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:19:55.580 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.515 seconds (JVM running for 5.992)
+2017-07-26 11:19:55.615 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:19:55.619 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@68e29d53: startup date [Wed Jul 26 11:19:50 CST 2017]; root of context hierarchy
+2017-07-26 11:19:55.621 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:20:15.815 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 704 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:20:15.816 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:20:15.842 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3bb79cfa: startup date [Wed Jul 26 11:20:15 CST 2017]; root of context hierarchy
+2017-07-26 11:20:16.130 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:20:17.209 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:20:17.226 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:20:17.292 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:20:17.293 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:20:17.294 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:20:17.331 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:20:18.508 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:20:18.643 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:20:19.014 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:20:19.844 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:20:20.530 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3bb79cfa: startup date [Wed Jul 26 11:20:15 CST 2017]; root of context hierarchy
+2017-07-26 11:20:20.594 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:20:20.597 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:20:20.597 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:20:20.626 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:20:20.626 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:20:20.663 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:20:21.027 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.508 seconds (JVM running for 5.987)
+2017-07-26 11:20:21.059 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:20:21.064 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3bb79cfa: startup date [Wed Jul 26 11:20:15 CST 2017]; root of context hierarchy
+2017-07-26 11:20:21.066 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:20:59.177 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 8336 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:20:59.178 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:20:59.205 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@75c6e9f0: startup date [Wed Jul 26 11:20:59 CST 2017]; root of context hierarchy
+2017-07-26 11:20:59.490 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:21:00.581 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:21:00.597 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:21:00.660 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:21:00.661 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:21:00.662 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:21:00.699 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:21:01.807 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:21:01.946 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:21:02.314 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:21:03.128 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:21:03.784 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@75c6e9f0: startup date [Wed Jul 26 11:20:59 CST 2017]; root of context hierarchy
+2017-07-26 11:21:03.842 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:21:03.845 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:21:03.845 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:21:03.875 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:21:03.875 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:21:03.908 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:21:04.255 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.372 seconds (JVM running for 5.841)
+2017-07-26 11:21:04.289 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:21:04.293 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@75c6e9f0: startup date [Wed Jul 26 11:20:59 CST 2017]; root of context hierarchy
+2017-07-26 11:21:04.295 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:22:04.187 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 9080 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:22:04.187 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:22:04.213 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@370875ae: startup date [Wed Jul 26 11:22:04 CST 2017]; root of context hierarchy
+2017-07-26 11:22:04.505 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:22:05.567 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:22:05.582 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:22:05.657 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:22:05.658 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:22:05.659 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:22:05.696 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:22:06.909 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:22:07.048 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:22:07.399 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:22:08.171 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:22:08.846 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@370875ae: startup date [Wed Jul 26 11:22:04 CST 2017]; root of context hierarchy
+2017-07-26 11:22:08.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:22:08.909 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:22:08.910 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:22:08.938 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:22:08.939 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:22:08.975 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:22:09.368 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.473 seconds (JVM running for 5.953)
+2017-07-26 11:22:09.403 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:22:09.407 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@370875ae: startup date [Wed Jul 26 11:22:04 CST 2017]; root of context hierarchy
+2017-07-26 11:22:09.410 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:23:14.382 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 4552 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:23:14.383 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:23:14.420 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@690c3515: startup date [Wed Jul 26 11:23:14 CST 2017]; root of context hierarchy
+2017-07-26 11:23:15.230 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:23:16.666 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:23:16.682 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:23:16.760 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:23:16.761 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:23:16.762 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:23:16.798 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:23:17.920 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:23:18.055 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:23:18.413 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:23:19.278 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:23:19.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@690c3515: startup date [Wed Jul 26 11:23:14 CST 2017]; root of context hierarchy
+2017-07-26 11:23:20.021 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:23:20.023 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:23:20.024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:23:20.053 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:23:20.053 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:23:20.089 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:23:20.469 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 6.421 seconds (JVM running for 6.98)
+2017-07-26 11:23:20.504 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:23:20.508 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@690c3515: startup date [Wed Jul 26 11:23:14 CST 2017]; root of context hierarchy
+2017-07-26 11:23:20.510 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:24:21.339 [main] INFO  com.qian.SpringbootapiApplicationTests - Starting SpringbootapiApplicationTests on qld-PC with PID 8648 (started by qld in D:\InteliJ IDEA\springBoot)
+2017-07-26 11:24:21.340 [main] INFO  com.qian.SpringbootapiApplicationTests - The following profiles are active: cbtest
+2017-07-26 11:24:21.369 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d39a005: startup date [Wed Jul 26 11:24:21 CST 2017]; root of context hierarchy
+2017-07-26 11:24:21.644 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-26 11:24:22.759 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:24:22.774 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-26 11:24:22.848 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-26 11:24:22.849 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-07-26 11:24:22.850 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-07-26 11:24:22.887 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-26 11:24:24.085 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2017-07-26 11:24:24.232 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-07-26 11:24:24.591 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2017-07-26 11:24:25.507 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-26 11:24:26.194 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d39a005: startup date [Wed Jul 26 11:24:21 CST 2017]; root of context hierarchy
+2017-07-26 11:24:26.256 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto public java.lang.String com.qian.web.controller.SampleController.home()
+2017-07-26 11:24:26.258 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-26 11:24:26.259 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-26 11:24:26.288 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:24:26.288 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:24:26.323 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-26 11:24:26.733 [main] INFO  com.qian.SpringbootapiApplicationTests - Started SpringbootapiApplicationTests in 5.69 seconds (JVM running for 6.185)
+2017-07-26 11:24:26.768 [main] INFO  com.qian.SpringbootapiApplicationTests - this result is 3
+2017-07-26 11:24:26.772 [Thread-4] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4d39a005: startup date [Wed Jul 26 11:24:21 CST 2017]; root of context hierarchy
+2017-07-26 11:24:26.774 [Thread-4] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
