@@ -1,5 +1,6 @@
 package com.qian.web.controller;
 
+import com.qian.common.AppContext;
 import com.qian.domain.MyException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,8 +27,11 @@ public class NewOneController {
     public  String newOne(HttpServletRequest request)  {
 
         logger.error("到了newone这里了");
-        String str=request.getParameter("what");
-        logger.error(str);
+
+        String str= AppContext.sLocal.get();
+
+        AppContext.sLocal.set("newOne is this ......");
+        logger.error(AppContext.sLocal.get());
         return  str;
 
     }
