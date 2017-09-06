@@ -1,5 +1,6 @@
 package com.qian.web.controller;
 
+import com.qian.common.AppContext;
 import com.qian.config.RedisConfig;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.Logger;
@@ -58,7 +59,11 @@ public class RedisController {
         threadLocal.set("只能留下最后的了！");
         mv.addObject("ok","wo");
         mv.addObject("what",jedisCluster.get("music"));
-       // mv.setViewName("forward:"+url);
+
+        //在此处设置下sLocal的值，看看后面能否取出来
+        AppContext.sLocal.set("redis is this......");
+
+        //mv.setViewName("forward:"+url);
         mv.setViewName("redirect:"+url);
 
         return  mv;
