@@ -29,7 +29,6 @@ public class NewOneController {
         logger.error("到了newone这里了");
 
         String str= AppContext.sLocal.get();
-
         AppContext.sLocal.set("newOne is this ......");
         logger.error(AppContext.sLocal.get());
         return  str;
