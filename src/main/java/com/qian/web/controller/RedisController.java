@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
@@ -22,7 +23,7 @@ import java.util.Set;
 /**
  * Created by qld on 2017/8/25.
  */
-@Controller
+@RestController
 @EnableAutoConfiguration
 public class RedisController {
 
@@ -62,7 +63,7 @@ public class RedisController {
 
         //在此处设置下sLocal的值，看看后面能否取出来
         AppContext.sLocal.set("redis is this......");
-
+        AppContext.panda="2009";
         //mv.setViewName("forward:"+url);
         mv.setViewName("redirect:"+url);
 
