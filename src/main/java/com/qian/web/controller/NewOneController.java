@@ -27,10 +27,14 @@ public class NewOneController {
     public  String newOne(HttpServletRequest request)  {
 
         logger.error("到了newone这里了");
-
+        AppContext.panda="wusheng75";
         String str= AppContext.sLocal.get();
         AppContext.sLocal.set("newOne is this ......");
         logger.error(AppContext.sLocal.get());
+        AppContext.mapLocal.get().put("1","qian");
+        logger.info("获取到的map对象中的值{}",AppContext.mapLocal.get().get("1"));
+        logger.info("panda的值是:"+AppContext.panda);
+        newOneClass e=new newOneClass();
         return  str;
 
     }
@@ -40,4 +44,16 @@ public class NewOneController {
         return ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
     }
 
+
+    static class newOneClass{
+        static class Entry{
+            public Entry(){
+                System.out.println("我这个算是静态的内部类吧");
+            }
+        }
+    }
+
+    static class newSecondClass{
+
+    }
 }
